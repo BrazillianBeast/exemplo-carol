@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #4F4A45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.meuTexto{
+    color: #ED7D31;
+}
+
+#minhaCaixa{
+    background-color: #F6F1EE;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width: 60%;
+}
+
+input {
+    margin-top: 1.5em;
+    border: none;
+    color: 444;
+    font-size: 1rem;
+    border-radius: 5%;
+    color: #ED7D31;
+
+}
+
+.input::placeholder{
+    color: #d5d5d5;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#minhaCaixaDeExibicao{
+    color: #4F4A45;
+    margin-top: 2em;
+    display: flex;
+}
